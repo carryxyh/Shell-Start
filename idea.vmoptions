@@ -1,0 +1,13 @@
+-Xms500m
+-Xmx750m
+-XX:ReservedCodeCacheSize=240m
+-XX:+UseCompressedOops
+
+-server
+-XX:+UseParNewGC
+-XX:ParallelGCThreads=4
+-XX:+UseConcMarkSweepGC
+-XX:CMSInitiatingOccupancyFraction=70
+
+#-XX:+PrintGCDetails
+#-Xloggc:/Users/xiuyuhang/Downloads/gc-idea.log
