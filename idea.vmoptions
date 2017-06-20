@@ -1,5 +1,5 @@
--Xms500m
--Xmx750m
+-Xms750m
+-Xmx1000m
 -XX:ReservedCodeCacheSize=240m
 -XX:+UseCompressedOops
 
@@ -7,6 +7,7 @@
 -XX:+UseParNewGC
 -XX:ParallelGCThreads=4
 -XX:+UseConcMarkSweepGC
+-XX:+CMSScavengeBeforeRemark
 -XX:CMSInitiatingOccupancyFraction=70
 
 #-XX:+PrintGCDetails
