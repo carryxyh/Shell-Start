@@ -1,5 +1,5 @@
 -Xms750m
--Xmx1000m
+-Xmx100000m
 -XX:ReservedCodeCacheSize=240m
 -XX:+UseCompressedOops
 
