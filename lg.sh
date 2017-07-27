@@ -3,6 +3,8 @@
 #默认服务器配置项
 #    "服务器名称 端口号 IP地址 登录用户名 登录密码"
 CONFIGS=(
+    "daily-cart1 22 10.1.5.176 root sdfsdf"
+    "daily-cart2 22 10.1.5.193 root sdfsdf"
     "mm-cart-soa 22 10.1.24.11 root sdfsdf"
     "mm-weixin-meal 22 10.1.24.14 root sdfsdf"
     "mm-consumer-soa 22 10.1.24.12 root sdfsdf"
