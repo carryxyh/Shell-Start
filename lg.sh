@@ -5,9 +5,6 @@
 CONFIGS=(
     "daily-cart1 22 10.1.5.176 root sdfsdf"
     "daily-cart2 22 10.1.5.193 root sdfsdf"
-    "mm-cart-soa 22 10.1.24.11 root sdfsdf"
-    "mm-weixin-meal 22 10.1.24.14 root sdfsdf"
-    "mm-consumer-soa 22 10.1.24.12 root sdfsdf"
 )
 
 #读取自定义服务器配置文件（server_config）列表，合并服务器配置列表
